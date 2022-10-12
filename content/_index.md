@@ -1,27 +1,18 @@
 ---
-title: 🪴 Quartz 3.
+title: "Lectern"
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+Welcome to the Lectern, [Arash’s](https://arashnrim.me) digital garden meant to share whatever I know with the public in a presentable manner.
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+I was inspired by the concept of learning in public for a long time now, and I found that making a digital garden could prove to be a viable step forward in showing that. This digital garden may be specific, but I hope that over time, it can grow into something I can look back on and also refer others to.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+Feel free to explore more here, and share whatever you know with me as well! If there’s anything that’s factually incorrect that you’re willing to correct, please feel free to contact me.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+# What’s here?
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+There’s not a lot at the moment, but here’s some tags you could take a look at!
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
+- [Social](tags/social)
+- [Productivity](tags/productivity)
+- [Technologies](tags/technologies)
