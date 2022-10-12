@@ -1,6 +1,6 @@
 ---
 title: "Learning in public"
-date: 2022-10-13
+date: 2022-10-13T00:38:55+08:00
 tags:
 - social
 ---
