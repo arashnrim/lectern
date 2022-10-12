@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Arash Nur Iman
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -10,17 +10,20 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
-page_title:
-  "🪴 Quartz 3.3"
+description: Arash's collection of notes on anything interesting, powered by Quartz 3.
+page_title: "Lectern"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
+  - link_name: github
+    link: https://github.com/arashnrim
+  - link_name: blog
+    link: https://blog.arashnrim.me
+  - link_name: linkedin
+    link: https://linkedin.com/in/arashnrim
+  - link_name: figma
+    link: https://figma.com/@arashnrim
+  - link_name: email
+    link: mailto:hello@arashnrim.me
