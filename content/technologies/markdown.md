@@ -11,7 +11,11 @@ tags:
 ## Syntax
 
 | Symbol | Description |
-|:-------|:------------|
-| ** **  | Bold        |
-| * *    | Italicise   |
-| ~ ~    | Strikethrough |
+|:-------:|:------------|
+| `** **` or `* *`  | Bold        |
+| `* *` or `_ _`   | Italicise   |
+| `~ ~` | Strikethrough |
+| `[title](https://example.com)` | Link |
+| `#` to `######` | Headings (H1 to H6) |
+| `-` | List items (non-ordinal)
+| `1.` to `n.` | List items (ordinal)
