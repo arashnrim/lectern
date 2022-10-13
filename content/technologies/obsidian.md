@@ -5,10 +5,10 @@ tags:
 - technologies
 ---
 
-- A [[technologies/markdown]]-based note-taking app centred around keeping distinct ideas connected through identifying relationships they share with one another
+- A [[technologies/markdown|Markdown]]-based note-taking app centred around keeping distinct ideas connected through identifying relationships they share with one another
 - Marketed as "a second brain, for you, forever"
 - Features a vault-like system for organisation with pure Markdown files, assuring that [[data]] won't be lost if Obsidian eventually shuts down (since it's a [[closed source]] service)
-- A form of [[productivity/personal-knowledge-management]]
+- A form of [[productivity/personal-knowledge-management|personal knowledge management]]
 
 ## How should I use Obsidian?
 * As much as possible, each note within Obsidian should be atomic in its own right, meaning that each page is for a specific item to talk about
