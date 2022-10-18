@@ -5,8 +5,7 @@ tags:
 - technologies
 ---
 
-- A computing programming model that models a system as a collection of objects, of which each object represents a particular part of the system[^1]
-- Generally involves the use of classes and objects
+A computing programming model that models a system as a collection of objects, of which each object represents a particular part of the system[^1]. Generally involves the use of classes and objects.
 
 - Has four main concepts:
 	- [[technologies/encapsulation|encapsulation]];

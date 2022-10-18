@@ -5,7 +5,7 @@ tags:
 - social
 ---
 
-- Perceived as the subjective awareness of one's identity of experience
+Perceived as the subjective awareness of one's identity of experience.
 
 ## What does the self consist of?
 Generally, the perception of self consists of four things:
