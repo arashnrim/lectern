@@ -13,6 +13,6 @@ Feel free to explore more here, and share whatever you know with me as well! If 
 
 There’s not a lot at the moment, but here’s some tags you could take a look at!
 
-- [Social](tags/social)
-- [Productivity](tags/productivity)
-- [Technologies](tags/technologies)
+- [Social](tags/social) — notes related to interactions between people or the state of society.
+- [Productivity](tags/productivity) — notes related to the state of putting in work, often related to optimising processes.
+- [Technologies](tags/technologies) — notes related to different technologies, including languages, frameworks, and tools.
