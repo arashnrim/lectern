@@ -6,7 +6,7 @@ tags:
 - computers
 ---
 
-A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a computer's basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
+A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technologies/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
 
 Often comes as two kinds of operating systems:
 - desktop operating systems — installed on personal computers meant to be used by one person at a time; and

@@ -18,15 +18,23 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 | `DISTINCT` | Filters a field and removes duplicate values |
 | `CREATE VIEW` | Creates a new view |
 | `ORDER BY ... ASC` or `ORDER BY ... DESC` | Sorts a field in ascending or descending order |
-| `LIKE` | Performs pattern match searching |
+| `LIKE` | Performs pattern match searching; often `%` is used in conjunction to select zero or more characters |
+| `IN (...)` | Checks if the condition matches one of the items in a given list (similar to concatenating multiple `OR`s) |
+| `BETWEEN ... AND ...` | Checks if the condition is between the two given items; often used with dates |
+| `AND` | Concatenates conditions together such that both must be true to pass |
+| `OR` | Concatenates conditions together such that at least one must be true to pass |
+| `NOT` | Inverses a condition |
 
 # Logical operators
 
-- `AND`
-- `OR`
-- `IN`
-- `NOT`
-- `IS`
+| Operator | Operation |
+|:-:|:-|
+| `=` | equality |
+| `!=` or `<>` | not |
+| `<` | less than |
+|  `<=` | less than or equal to |
+| `>` | greater than |
+| `>=` | greater than or equal to |
 
 # Terminologies
 
