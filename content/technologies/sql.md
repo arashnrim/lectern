@@ -7,12 +7,24 @@ tags:
 
 Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technologies/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
 
-# Keywords
+# Terminologies
 
-| Keyword | Description |
+| Term | Definition |
+| :-:|:-|
+| Result set | The produced data after processing a query |
+| View | A table that is a saved result set |
+| Virtual table | Not a table in the database, but the query code is saved instead |
+| Null | A value that is unknown, not available, or not applicable |
+| Tuple | A term usually synonymous with a record in a table |
+| Relation | A term usually synonymous with a table |
+
+# Statements and functions
+
+## Statements
+| Statement | Description |
 |:-:|:-|
 | `SELECT` | Selects the given fields from a database |
-| `SELECT ... WHERE` | Selects the given fields from a database, provided the conditions provided are true |
+| `SELECT ... FROM ... WHERE` | Selects the given fields from a database, provided the conditions provided are true |
 | `FROM` | Specifies which table should data be retrieved from |
 | `AS` | Aliasing a field name in the query |
 | `DISTINCT` | Filters a field and removes duplicate values |
@@ -25,6 +37,52 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 | `OR` | Concatenates conditions together such that at least one must be true to pass |
 | `NOT` | Inverses a condition |
 
+## Functions
+- Scalar functions: functions that produces an output for each row of input
+- Aggregate functions: functions that accept values from multiple rows and produces an output
+
+### String functions
+
+| Function | Kind | Description |
+|:-:|:-:|:-|
+| `LOWER` | Scalar | Converts a string to lowercase |
+| `UPPER` | Scalar | Converts a string to uppercase |
+| `REPLACE` | Scalar | Replaces a string with another given value |
+| `STR` | Scalar | Converts a numeral into a string |
+| `SUBSTRING` | Scalar | Returns part of a string |
+
+### Mathematical functions
+
+| Function | Kind | Description |
+|:-:|:-:|:-|
+| `CEILING` | Scalar | Returns the next integer of a given number |
+| `FLOOR` | Scalar | Returns the previous integer of a given number |
+| `ROUND` | Scalar | Rounds up a number to a given number of decimal places |
+| `COUNT` | Aggregate | Returns the number of items in a group |
+| `MIN` | Aggregate | Selects the minimum value in a set of values |
+| `MAX` | Aggregate | Selects the maximum value in a set of values |
+| `AVERAGE` | Aggregate | Returns the average value in a set of values |
+| `SUM` | Aggregate | Returns the sum of all values in a set of values |
+
+### datetime functions
+
+| Function | Kind | Description |
+|:-:|:-:|:-|
+| `DATEADD` | Scalar | Adds a given interval to a date |
+| `DATEDIFF` | Scalar | Returns the difference between two dates |
+| `GETDATE` | Scalar | Gets the current date |
+| `DAY` | Scalar | Returns an integer of the day of the date |
+| `MONTH` | Scalar | Returns an integer of the month of the date |
+| `YEAR` | Scalar | Returns an integer of the year of the date |
+| `FORMAT` | Scalar | Returns a date as a string in the given format |
+
+### System functions
+
+| Function | Kind | Description |
+|:-:|:-:|:-|
+| `FORMAT` | Scalar | Returns a value formatted with the given format |
+| `ISNULL` | Scalar | Replaces `NULL` values with a given value |
+
 # Logical operators
 
 | Operator | Operation |
@@ -36,13 +94,18 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 | `>` | greater than |
 | `>=` | greater than or equal to |
 
-# Terminologies
+# Keys
 
-| Term | Definition |
-| :-:|:-|
-| Result set | The produced data after processing a query |
-| View | A table that is a saved result set |
-| Virtual table | Not a table in the database, but the query code is saved instead |
+Keys in SQL are used to identify a record in a table. They are unique to each record and there are different kinds of keys:
+
+- Candidate key — an attribute that uniquely identifies a tuple in a relation
+- Primary key — a chosen candidate key used to uniquely identify each tuple. A primary key requires two requirements:
+	- the value of the primary key should be consistent (unchanged) over time; and
+	- the value of the primary key must be non-null
+- Alternate key — a candidate key that was not chosen as the primary key of the record
+- Foreign key — an attribute used to create a relationship with another relation (table) within the database
+- Composite key — a key that consists of more than one attribute
+	- In some instances, one primary key is not enough (e.g., the ISBN of a book is insufficient as a library may hold multiple copies of the same book)
 
 # Data types
 Often [[technologies/data-typing|data typed]] and store a particular piece of required information; common data types include:
