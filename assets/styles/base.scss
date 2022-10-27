@@ -205,7 +205,7 @@ article {
     margin-top: 2em;
     font-size: 2em;
   }
-
+  
   & > .meta {
     margin: 0 0 1em 0;
     opacity: 0.7;
@@ -223,11 +223,11 @@ article {
 
       &.broken {
         opacity: 0.5;
-        background-color: transparent;
+        background-color: transparent; 
       }
     }
   }
-
+  
   & p {
     overflow-wrap: anywhere;
   }
@@ -317,7 +317,7 @@ footer {
   text-align: center;
   & ul {
     padding-left: 0;
-  }
+  } 
 }
 
 hr {
@@ -531,7 +531,7 @@ header {
 
   & > .section {
     display: flex;
-    align-items: center;
+    align-items: center; 
 
     @media all and (max-width: 600px) {
       & .tags {
@@ -543,11 +543,11 @@ header {
       font-weight: 700;
       margin: 0;
     }
-
+    
     & p {
       margin: 0;
       padding-right: 1em;
-      flex-basis: 6em;
+      flex-basis: 6em; 
     }
   }
 
@@ -610,7 +610,7 @@ header {
     margin: 0.25rem 0;
   }
 
-  & > .meta {
+  & .meta {
     margin-top: 0.25rem;
     opacity: 0.5;
     font-family: var(--font-mono);
@@ -620,7 +620,7 @@ header {
   & > p {
     margin: 0;
     padding: 0.5rem 0;
-  }
+  } 
 
   & > p, & > a {
     font-size: 1rem;
