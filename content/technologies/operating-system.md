@@ -39,7 +39,7 @@ Based on the definitions above:
 |:-:|:-:|:-:|
 | Windows | No | **Yes** |
 | Windows Server | **Yes** | **Yes** |
-| macOS | Yes | **Yes** |
+| macOS | **Yes** | **Yes** |
 | UNIX | **Yes** | **Yes** |
 | Linux | **Yes** | **Yes** |
 
@@ -57,6 +57,8 @@ Generally has four important functions:
 | Function | Description |
 |:-|:-|
 | File management | Handles file-related activities (e.g., storage, retrival, naming, sharing) |
-| Process management | Handles the creation and destruction of processes and provides mechanisms for synchronisation and communication across processes |
+| Process management [^1] | Handles the creation and destruction of processes and provides mechanisms for synchronisation and communication across processes |
 | Memory management | Handles the allocation and deallocation of memory space to programs |
 | Device management | Handles the management of I/O devices |
+
+[^1]: Related: [[technologies/process-management|process management]]

@@ -8,8 +8,8 @@ tags:
 The arrangement of a given number of items **in a particular order**. Not to be confused with [[mathematics/combination|combinations]], which is similar but without consideration of order.
 
 Provided:
-- the number of distinct items to choose, $r$ (things you have); and
-- the number of permutations, $n$ ('slots' to fill)
+- the number of distinct items to choose, $n$ (things you have); and
+- the number of permutations, $r$ ('slots' to fill)
 $$
 ^nP_r = n \times (n-1) \times ... \times (n-r+1) = \frac {n!} {(n-r)!}
 $$

@@ -8,8 +8,8 @@ tags:
 The arrangement of a given number of items **without the consideration of order**. Not to be confused with [[mathematics/permutation|permutations]], which is similar but with consideration of order.
 
 Provided:
-- the number of distinct items to choose, $r$ (things you have); and
-- the number of combinations, $n$ ('slots' to fill)
+- the number of distinct items to choose, $n$ (things you have); and
+- the number of combinations, $r$ ('slots' to fill)
 $$
 ^nC_r = \frac {^nP_r} {r!} = \frac {\frac {n!} {(n-r)!}} {r!} = \frac {n!} {r!(n-r)!}
 $$
