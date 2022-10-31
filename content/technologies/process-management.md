@@ -65,4 +65,4 @@ Processes can exist in four different states:
 | Windows | Linux | Description |
 |:-:|:-:|:-|
 | `tasklist` | `ps` | Lists the curerntly running processes in a computer |
-| `taskkill` | | |
+| `taskkill` | `kill` | Stops (kills) a running process, usually the given process |

@@ -47,7 +47,7 @@ Based on the definitions above:
 
 Operating systems work with other components in a computer to fully make use of a computer's resources and function well. These components include:
 - the [[technologies/basic-input-output-system|basic input/output system (BIOS)]];
-- the operating system's [[operating-system/operating-system-kernel|kernel]] and
+- the operating system's [[technologies/operating-system-kernel|kernel]] and
 - [[technologies/device-management|device drivers]].
 
 # Functions
