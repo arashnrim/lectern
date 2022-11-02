@@ -5,7 +5,7 @@ tags:
 - technologies
 ---
 
-Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technologies/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
+Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technologies/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
 
 # Terminologies
 
@@ -93,19 +93,6 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 |  `<=` | less than or equal to |
 | `>` | greater than |
 | `>=` | greater than or equal to |
-
-# Keys
-
-Keys in SQL are used to identify a record in a table. They are unique to each record and there are different kinds of keys:
-
-- Candidate key — an attribute that uniquely identifies a tuple in a relation
-- Primary key — a chosen candidate key used to uniquely identify each tuple. A primary key requires two requirements:
-	- the value of the primary key should be consistent (unchanged) over time; and
-	- the value of the primary key must be non-null
-- Alternate key — a candidate key that was not chosen as the primary key of the record
-- Foreign key — an attribute used to create a relationship with another relation (table) within the database
-- Composite key — a key that consists of more than one attribute
-	- In some instances, one primary key is not enough (e.g., the ISBN of a book is insufficient as a library may hold multiple copies of the same book)
 
 # Data types
 Often [[technologies/data-typing|data typed]] and store a particular piece of required information; common data types include:

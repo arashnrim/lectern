@@ -12,7 +12,7 @@ An electronic device that operates under the control of **instructions stored in
 
 Generally, computers have several components that play different roles within the computer:
 
-- [[technologies/central-processing-unit|central processing unit]] (CPU) — a component that processes data according to a set of instructions;
+- [[technologies/computers/central-processing-unit|central processing unit]] (CPU) — a component that processes data according to a set of instructions;
 - memory — data, instructions, and results to be used in the short-term;
 	- [[technologies/random-access-memory|random access memory]] (RAM) — a component that stores data, instructions, and results for immediate use;
 	- [[technologies/read-only-memory|read-only memory]] (ROM) — a component that stores data and instructions that rarely need to change or are required for start-up;

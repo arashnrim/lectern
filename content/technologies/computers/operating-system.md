@@ -6,7 +6,7 @@ tags:
 - computers
 ---
 
-A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technologies/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
+A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technologies/computers/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
 
 # Kinds of OSs
 
@@ -46,9 +46,9 @@ Based on the definitions above:
 # How it works
 
 Operating systems work with other components in a computer to fully make use of a computer's resources and function well. These components include:
-- the [[technologies/basic-input-output-system|basic input/output system (BIOS)]];
-- the operating system's [[technologies/operating-system-kernel|kernel]] and
-- [[technologies/device-management|device drivers]].
+- the [[technologies/computers/basic-input-output-system|basic input/output system (BIOS)]];
+- the operating system's [[technologies/computers/operating-system-kernel|kernel]] and
+- [[technologies/computers/device-management|device drivers]].
 
 # Functions
 
@@ -61,4 +61,4 @@ Generally has four important functions:
 | Memory management | Handles the allocation and deallocation of memory space to programs |
 | Device management | Handles the management of I/O devices |
 
-[^1]: Related: [[technologies/process-management|process management]]
+[^1]: Related: [[technologies/computers/process-management|process management]]

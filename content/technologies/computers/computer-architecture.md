@@ -6,13 +6,13 @@ tags:
 - computers
 ---
 
-Describes how a [[technologies/computer|computer]] is designed and built to function, including how parts of the computer are designed, organised, and connected.
+Describes how a [[technologies/computers/computer|computer]] is designed and built to function, including how parts of the computer are designed, organised, and connected.
 
 # von Neumann computer architecture
 
 There may be many kinds of computer architecture, but a popular one (that is used in current studies) is the von Neumann computer architecture. The architecture describes a computer with the following components:
 
-- a [[technologies/central-processing-unit|central processing unit]] with both an arithmetic logic unit and registers;
+- a [[technologies/computers/central-processing-unit|central processing unit]] with both an arithmetic logic unit and registers;
 	- control units that include an instruction register and program counter;
 - memory to store data and instructions;
 - external [[technologies/secondary-storage|secondary storage]]; and
