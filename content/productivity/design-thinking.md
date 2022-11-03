@@ -17,6 +17,13 @@ A thinking process to help with generating and executing an solution for problem
 4. Prototype
 5. Test
 
+## Empathy
+At this stage, asking questions and interviewing the right audinece is crucial to understanding the issues a group of people face. Through interviews and asking good questions, we can think of pain points or smile points that a person is experiencing; we can then use these points to identify opportunities that we can add on.
+
+Identifying opportunities is important, as it provides a basis that we can use to think of opportunity statements (i.e., sentences that prompt for idea generation using the structure "how might we...?").
+- Opportunity statements tend to have the structure of "how might we <problem with user> so as to <impact>?"
+	- Must the target audience clearly in the definition
+
 # Target audiences
 
 It is important to define target audiences when coming up with ideas using design thinking as it helps us built a solution around the audience rather than building the audience around the solution. It is important to identify the relevant stakeholders or audience for a problem you are empathising for.

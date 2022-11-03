@@ -68,3 +68,13 @@ P(X = a) = e^{-\lambda} \space \frac {\lambda^a} {a!}
 $$
 The expected value or mean of the distribution is $\lambda$.
 The variance of the distribution is $\lambda$.
+
+# Poisson approximation to binomial
+
+When a binomial distribution has a high number of independent trails ($n$) and a low probability ($p$), we can approximate the binomial distribution into a Poisson distribution.
+
+Expressed mathematically:
+When $n \to \infty, \space p \to 0$
+$$
+X \sim B(n, p) \approx X \sim P_O(np)
+$$
