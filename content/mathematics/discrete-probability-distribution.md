@@ -31,7 +31,7 @@ X \sim B (n, p)
 $$
 Provided a binomial distribution, the probability when $X = a$ is denoted by the following formula:
 $$
-P(X = a) = {^n}C_p \space p^a \space q^{n-a}
+P(X = a) = {^n}C_a \space p^a \space q^{n-a}
 $$
 (where $q = 1 - p$)
 

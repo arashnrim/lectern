@@ -29,6 +29,11 @@ A database visualisation model that describes interrelated things of interest in
 | Dotted oval | Derived attribute |
 | Diamond | Relationship (verb) |
 
+| Line | Representation |
+|:-:|:-|
+| Single line | Partial/Optional participation |
+| Double line | Total/Mandatory participation |
+
 # Relationships
 
 ## Degrees of relationships
@@ -60,3 +65,10 @@ Refers to the number of instances of an entity that can be associated with an in
 - many-to-many (M:N) relationship.
 	- the 'N' is used to differentiate the letters, but still means many. Can be ignored (don't need to change)
 	- example: many students taking many subjects
+
+### Participation
+Specifies whether the existence of an entity depends upon it being another entity through the relationship. Shown in the ER diagram as different strokes of lines connecting entities and relationships.
+
+Generally has two participation constraints:
+- partial/optional participation, where instances of an entity are related to instances of another entity through the relationship, but not necessarily all; and
+- total/mandatory participation, where instances of an entity must be associate with an instance of the related entity.

@@ -13,6 +13,7 @@ The process of coming up with entities and models to be used in a future databas
 | Term | Definition |
 |:-:|:-|
 | Entity | An object (e.g., people and items) of which is to be captured and modelled into a database |
+| Weak entity | An entity that does not have any key attributes of its own and can only be identified by relating it to an owner entity |
 | Attribute | A property or characteristic of an entity that is of interest to the organisation or business area (that the database is being built for) |
 | Relationship | An association between the instances of one or more entities of interest to the organisation |
 
@@ -36,6 +37,7 @@ Keys are used to identify a record in a table. They are unique to each record an
 - Surrogate key — a new attribute specifically introduced into an entity to serve as the primary key
 	- Often used when a natural identifier cannot be used to guarantee the uniqueness of each tuple
 	- When the primary key is a composite key with many attributes, it is suggested to use a surrogate key in its place
+- Partial key — an attribute or set of attributes that uniquely identify weak entities related to the same owner entity
 
 # Models
 
