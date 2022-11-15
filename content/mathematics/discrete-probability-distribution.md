@@ -9,7 +9,7 @@ A random variable can be discrete if it has:
 - a finite number of values; or
 - an infinite but countable number of values.
 
-A discrete probability distribution, therefore, is the probabity distribution of a discrete random variable. Two common distributions include the:
+A discrete probability distribution, therefore, is the probabity distribution of a discrete random variable (one that has a finite number of values). Two common distributions include the:
 - binomial distribution; and
 - Poisson distribution.
 
@@ -69,12 +69,11 @@ $$
 The expected value or mean of the distribution is $\lambda$.
 The variance of the distribution is $\lambda$.
 
-# Poisson approximation to binomial
+## Poisson approximation to binomial
 
 When a binomial distribution has a high number of independent trails ($n$) and a low probability ($p$), we can approximate the binomial distribution into a Poisson distribution.
 
-Expressed mathematically:
-When $n \to \infty, \space p \to 0$
+Expressed mathematically, when $n \to \infty, \space p \to 0$
 $$
 X \sim B(n, p) \approx X \sim P_O(np)
 $$
