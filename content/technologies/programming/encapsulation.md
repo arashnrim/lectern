@@ -6,7 +6,7 @@ tags:
 - programming
 ---
 
-Refers to the process of enclosing certain information. In the context of object-oriented programming, encapsulation refers to hiding irrelevant data (e.g., variables and methods) outside of a class.
+The process of enclosing certain information. In the context of object-oriented programming, encapsulation refers to hiding irrelevant data (e.g., variables and methods) outside of a class.
 
 # Access specifiers
 

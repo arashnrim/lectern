@@ -69,6 +69,7 @@ When a very large number of samples (each of size $n$) of either:
 - an infinite population,
 - a very large finite population, or
 - a finite population with replacement
+
 is repeatedly and independently drawn from a population,
 - the average sample mean ($E(\bar X)$) will be approximately equal to the actual population mean ($\mu$); and
 - the variance of the sample mean ($Var(\bar X)$) will only be $\frac 1 n$ times the population's variance ($\sigma^2$).
@@ -93,6 +94,7 @@ When a very large number of samples (each of size $n$) of either:
 - an infinite population,
 - a very large finite population, or
 - a finite population with replacement
+
 is repeatedly and independently drawn from a population, the standard error of the mean is as such:
 $$
 SE_{mean} = \sqrt {Var(\bar X)} = \frac \sigma {\sqrt n}

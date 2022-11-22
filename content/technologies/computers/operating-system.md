@@ -54,11 +54,7 @@ Operating systems work with other components in a computer to fully make use of 
 
 Generally has four important functions:
 
-| Function | Description |
-|:-|:-|
-| File management | Handles file-related activities (e.g., storage, retrival, naming, sharing) |
-| Process management [^1] | Handles the creation and destruction of processes and provides mechanisms for synchronisation and communication across processes |
-| Memory management | Handles the allocation and deallocation of memory space to programs |
-| Device management | Handles the management of I/O devices |
-
-[^1]: Related: [[technologies/computers/process-management|process management]]
+- [[technologies/computers/file-management|file management]] — the handling of file-related activities (e.g., storage, retrieval, naming, and sharing);
+- [[technologies/computers/process-management|process management]] — the handling of the creation and destruction of processes and provision of mechanisms for synchronisation and communication across processes;
+- [[technologies/computers/memory-management|memory management]] — the handling of the allocation and deallocation of memory space to programs; and
+- [[technologies/computers/device-management|device management]] — the handling of the management of I/O devices.

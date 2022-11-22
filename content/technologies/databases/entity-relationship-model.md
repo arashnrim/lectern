@@ -33,6 +33,7 @@ A database visualisation model that describes interrelated things of interest in
 |:-:|:-|
 | Single line | Partial/Optional participation |
 | Double line | Total/Mandatory participation |
+| Line with horseshoe | Subtype declaration |
 
 # Relationships
 
@@ -53,7 +54,7 @@ Represents the relationship between instances of two entities. Is the most commo
 ### Ternary relationships
 Represents the relationship among instances of three entities.
 
-## Constraints
+## Relationship constraints
 Relationships can be constrained such that only certain cases are valid in a database. This helps to plan out a database in greater detail.
 
 ### Cardinality ratio
@@ -71,4 +72,49 @@ Specifies whether the existence of an entity depends upon it being another entit
 
 Generally has two participation constraints:
 - partial/optional participation, where instances of an entity are related to instances of another entity through the relationship, but not necessarily all; and
-- total/mandatory participation, where instances of an entity must be associate with an instance of the related entity.
+- total/mandatory participation, where instances of an entity must be associated with an instance of the related entity.
+
+# Types
+
+There are two types of entities that can be drawn in an ER model. These are akin to base and derived classes in object-oriented programming:
+- Supertype — generic entity that can be divided into subtypes;
+- Subtype — a subset of a supertype that shares common attributes (inheritance) or relationships distinct from other subsets.
+	- The subtype should not have a primary key, but rather inherit a primary key from its supertype.
+
+The process of defiing a set of subtypes of an entity is known as specialisation. 
+
+The reverse process of abstraction, which involves:
+- supressing differences among entities;
+- identifying common features; and
+- generalising the entities into a supertype;
+
+is known as generalisation.
+
+## Constraints
+Similar to relationship constraints, there are constraints when it comes to specialisation and abstraction.
+
+### Disjointment
+An entity must only have one subtype or can have many subtypes according to the context of the situation. This is referred to as the disjoint constraint, in which an additional symbol (a circle with a character below) is added to denote the case.
+
+When a specialisation consists of only one subtype, there is no need to show the disjoint constraint.
+
+- `d` is used to represent that an entity is disjoint, meaning that the entity can only be one subtype; and
+- `o` is used to represent that an entity overlaps, meaning that the entity can be more than one substype.
+
+### Participation
+Specifies whether the existence of an entity depends upon it being another entity through the relationship. Shown in the ER diagram as different strokes of lines connecting entities and relationships.
+
+Generally has two participation constraints:
+- partial/optional participation, where instances of an entity are related to a subtype, but not necessarily; and
+- total/mandatory participation, where instances of an entity must be associated with a subtype.
+
+# Rough outline of steps
+
+1. Identify the main entities in the user's view of the enterprise.
+2. Identify the important relationships existing between the identified entities.
+3. Associate attributes with an appropriate entity or relationship.
+4. Identify the candidate keys for each entity before settling on a primary key.
+5. Identify supertypes and subtypes where appropriate.
+6. Draw the ER model for the database.
+7. Review the ER model.
+8. Reiterate where required.
