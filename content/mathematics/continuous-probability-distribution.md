@@ -63,12 +63,12 @@ Generally, to perform continuity correction, each discrete number must be treate
 ### Normal approximation from [[mathematics/discrete-probability-distribution#Binomial distribution|binomial distribution]]
 When a binomial distribution has a high number of independent trails ($n$) and a low probability ($p$), we can approximate the binomial distribution into a normal distribution.
 
-Expressed mathematically, when $n \to \infty, \space p \approx 0.5$ such that $np = pn > 5$:
+Expressed mathematically, when $n \to \infty, \space p \approx 0.5$ such that $np > 5, nq > 5$,
 $$
 X \sim B(n, p) \approx X \sim N (np, npq)
 $$
 ### Normal approximation from [[mathematics/discrete-probability-distribution#Poisson distribution|Poisson distribution]]
-When a Poisson distributtion has an average value ($\lambda$) sufficiently larger than its square root ($\sqrt \lambda$), we can approximate the Poisson distribution into a normal distribution.
+When a Poisson distribution has an average value ($\lambda$) sufficiently larger than its square root ($\sqrt \lambda$), we can approximate the Poisson distribution into a normal distribution.
 
 Expressed mathematically, when $\lambda > 10$:
 $$
@@ -78,6 +78,13 @@ $$
 If $X_1, X_2, ..., X_n$ is a random sample (of size $n$) taken from a population where $X \sim N (\mu, \sigma^2)$, then the sample mean ($\bar X$) follows a normal distribution.
 
 Expressed mathematically, when $X \sim N (\mu, \sigma^2)$,
+$$
+\bar X \sim N(\mu, \frac {\sigma^2} n)
+$$
+## Central Limit Theorem
+The Theorem states that if $X_1, X_2, ..., X_n$ is a random sample of a large size $n$ (where $n \geq 30$) and $X$ is of any distribution with mean $\mu$ and variance $\sigma^2$, the sample mean ($\bar X$) is approximately normal.
+
+Expressed mathematically, when $n \geq 30$ and $\mu$ and $\sigma^2$ are present,
 $$
 \bar X \sim N(\mu, \frac {\sigma^2} n)
 $$
