@@ -19,15 +19,14 @@ tags:
 A structure for filling data. Utilised by operating systems to store and access information on a computer. The file system manages, stores, and retrieves information and allocates locations on the storage and keeps a record of where specific information is kept.
 
 Some examples of commonly-used file systems:
-- [[technologies/computers/file-allocation-table|File Allocation Table]] (FAT), used in legacy Windows computers;
+- [[technology/computers/file-allocation-table|File Allocation Table]] (FAT), used in legacy Windows computers;
 	- FAT32, a version of FAT designed by Microsoft;
 - Extensible File Allocation Table (exFAT), used in modern windows computers;
-- New Technology File System (NTFS), used in modern Windows computers;
+- [[technology/computers/new-technology-file-system|New Technology File System]] (NTFS), used in modern Windows computers;
 - Hierarchical File System (HFS), used in legacy Apple computers; and
 - Apple File System (APFS), used in modern Apple computers.
 
 A file system consists of folders and files. Folders can be organised in a hierarchy that is similar to a tree structure. Operating system files should be and usually are kept separate to ensure that important files are not deleted by users.
-
 
 # Pathnames
 
@@ -103,6 +102,10 @@ Fragmentation results in the OS searching the disk for diferent groups of cluste
 
 it is important to note that fragmentation only affects hard disk drives; most if not all solid-state drives do not face the issue of fragmentation.
 
+There are two kinds of fragmentation:
+- external fragmentation is when a process's memory blocks are non-contiguous; and
+- internal fragmentation is when there is the presence of slack space in a a process's memory blocks.
+
 ## Defragmentation
 The process of consolidating fragmented files on a computer's hard disk by physically reorganising the contents of the disk. In Windows, the [Disk Defragmenter](https://support.microsoft.com/en-us/windows/defragment-your-windows-10-pc-048aefac-7f1f-4632-d48a-9700c4ec702a) is a system utility tool that handles the defragmentation of a hard disk drive.
 
@@ -118,9 +121,8 @@ In the first sector of the formatted partiiton, a boot block is created. The boo
 - file information, including the file's
 	- name;
 	- start cluster;
-	- size;
-	- creation time; and
-	- modification time; and
+	- size; and
+	- MAC (modification, access, creation) date time information; and
 - file attributes (e.g., hidden, read-only, and archive).
 
 # Authorisation
@@ -174,7 +176,7 @@ The first sector of a partition, used to contain:
 
 A 32-byte reference to every file and folder. Contains metadata and information including the:
 - name of the file/folder;
-- time and date (MAC (modification, access, creation));
+- MAC (modification, access, creation) date time information;
 - location (starting cluster);
 - size; and
 - author.

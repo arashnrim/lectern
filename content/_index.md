@@ -15,4 +15,8 @@ There’s not a lot at the moment, but here’s some tags you could take a look 
 
 - [Social](tags/social) — notes related to interactions between people or the state of society.
 - [Productivity](tags/productivity) — notes related to the state of putting in work, often related to optimising processes.
-- [Technologies](tags/technologies) — notes related to different technologies, including languages, frameworks, and tools.
+- [Technology](tags/technology) — notes related to technology, including computers, databases, languages, frameworks, and tools. Subtags under technology includes:
+	- [Computers](tags/computers) — notes related to computing;
+	- [Databases](tags/databases) — notes related to database systems and database management systems; and
+	- [Programming](tags/programming) — notes related to programming theory.
+- [Mathematics](tags/mathematics) — notes about different mathematical concepts.

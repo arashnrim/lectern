@@ -5,7 +5,7 @@ tags:
 - technologies
 ---
 
-Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technologies/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
+Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technology/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
 
 # Terminologies
 
@@ -95,7 +95,7 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 | `>=` | greater than or equal to |
 
 # Data types
-Often [[technologies/data-typing|data typed]] and store a particular piece of required information; common data types include:
+Often [[technology/data-typing|data typed]] and store a particular piece of required information; common data types include:
 
 | Data type | Used for |
 |:-:|:-|

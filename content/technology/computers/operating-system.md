@@ -6,7 +6,7 @@ tags:
 - computers
 ---
 
-A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technologies/computers/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
+A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technology/computers/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
 
 # Kinds of OSs
 
@@ -17,8 +17,8 @@ Often comes as two kinds of operating systems:
 - server operating systems — installed on more powerful computers (servers) connected to a network and sets out rules enabling multiple users to access information.
 	- the Windows Server family of operating systems are examples of server OSs
 
-## Open source?
-Operating systems may also vary in whether they are [[technologies/open-source|open source]]; the Linux OS and most distributions based off it are open-source, whereas Windows and macOS are examples of proprietary OSs.
+## Open-source and closed-source OSs
+Operating systems may also vary in whether they are [[technology/open-source|open source]]; the Linux OS and most distributions based off it are open-source, whereas Windows and macOS are examples of proprietary OSs.
 
 ## Multi-tasking and multi-user OSs
 A multi-tasking OS allows more than one program to run at the same time in a computer. Users will be able to:
@@ -28,7 +28,7 @@ A multi-tasking OS allows more than one program to run at the same time in a com
 
 A multi-user OS allows multiple users concurrently logging into the computer. The OS will need to handle:
 - fair treatment of users with similar privileges;
-- give priority to superusers;
+- the issuance of priority to superusers;
 - the privacy of users' files and data sharing storages; and
 - the protection of integrity of each user's programs and data from:
 	- malicious attempts by others; or
@@ -46,15 +46,15 @@ Based on the definitions above:
 # How it works
 
 Operating systems work with other components in a computer to fully make use of a computer's resources and function well. These components include:
-- the [[technologies/computers/basic-input-output-system|basic input/output system (BIOS)]];
-- the operating system's [[technologies/computers/operating-system-kernel|kernel]] and
-- [[technologies/computers/device-management|device drivers]].
+- the [[technology/computers/basic-input-output-system|basic input/output system (BIOS)]];
+- the operating system's [[technology/computers/operating-system-kernel|kernel]] and
+- [[technology/computers/device-management|device drivers]].
 
 # Functions
 
 Generally has four important functions:
 
-- [[technologies/computers/file-management|file management]] — the handling of file-related activities (e.g., storage, retrieval, naming, and sharing);
-- [[technologies/computers/process-management|process management]] — the handling of the creation and destruction of processes and provision of mechanisms for synchronisation and communication across processes;
-- [[technologies/computers/memory-management|memory management]] — the handling of the allocation and deallocation of memory space to programs; and
-- [[technologies/computers/device-management|device management]] — the handling of the management of I/O devices.
+- [[technology/computers/file-management|file management]] — the handling of file-related activities (e.g., storage, retrieval, naming, and sharing);
+- [[technology/computers/process-management|process management]] — the handling of the creation and destruction of processes and provision of mechanisms for synchronisation and communication across processes;
+- [[technology/computers/memory-management|memory management]] — the handling of the allocation and deallocation of memory space to programs; and
+- [[technology/computers/device-management|device management]] — the handling of the management of I/O devices.

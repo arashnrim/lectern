@@ -26,7 +26,7 @@ X \sim N(\mu, \sigma^2)
 $$
 
 There are certain values that are good to know when it comes to the area bound between standard deviations.
-![[Pasted image 20221113132549.png]]
+![[images/normal-distribution-curve-area.png]]
 - $P(\mu - \sigma < X < \mu + \sigma) = 0.68$
 - $P(\mu - 2\sigma < X < \mu + 2\sigma) = 0.95$
 - $P(\mu - 3\sigma < X < \mu + 3\sigma) = 0.997$

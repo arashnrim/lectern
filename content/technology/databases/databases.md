@@ -29,8 +29,8 @@ Can be defined as organised collections of data. Generally more advantageous com
 - Lowercase and not include spaces (underscores instead)
 - Should be singular, unique, and different from the table name
 
-# [[technologies/data-typing|Data typing]]
-Some instances of databases (for example, the [[technologies/databases/sql|SQL]] family of databases) tend to use data typing to streamline the developer experience and prevent errors (such as invalid field names provided by the developer). For these cases, view the particular database page.
+# [[technology/data-typing|Data typing]]
+Some instances of databases (for example, the [[technology/databases/sql|SQL]] family of databases) tend to use data typing to streamline the developer experience and prevent errors (such as invalid field names provided by the developer). For these cases, view the particular database page.
 
 # Application lifestyle
 

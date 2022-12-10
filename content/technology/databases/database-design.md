@@ -43,4 +43,4 @@ Keys are used to identify a record in a table. They are unique to each record an
 
 Conceptual database models are used to give a brief overview of what entities a database has and the relationships the entities have with each other. Like flowcharts, shapes resemble different things in the model.
 
-The [[technologies/databases/entity-relationship-model|entity-relationship model (ER model)]] is a commonly used model used to sketch out and visualise the relationships entities have with one another in a database.
+The [[technology/databases/entity-relationship-model|entity-relationship model (ER model)]] is a commonly used model used to sketch out and visualise the relationships entities have with one another in a database.
