@@ -2,7 +2,7 @@
 title: "Computer architecture"
 date: 2022-10-20T12:55:53+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

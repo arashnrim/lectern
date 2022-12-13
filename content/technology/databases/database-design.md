@@ -2,7 +2,7 @@
 title: "Database design"
 date: 2022-10-21T10:03:43+08:00
 tags:
-- technologies
+- technology
 - databases
 ---
 
@@ -27,7 +27,8 @@ Keys are used to identify a record in a table. They are unique to each record an
 - Candidate key — an attribute that uniquely identifies a tuple in a relation
 - Primary key — a chosen candidate key used to uniquely identify each tuple. A primary key requires two requirements and two recommendations:
 	- the value of the primary key should be consistent (unchanged) over time;
-	- the value of the primary key must be non-null;
+	- the value of the primary key must be non-null.
+	Additionally, consider the following:
 	- intelligent keys (keys with structures indicating the likes of classifications or locations) should be avoided; and
 	- surrogate keys should be considered as a possible substitution.
 - Alternate key — a candidate key that was not chosen as the primary key of the record

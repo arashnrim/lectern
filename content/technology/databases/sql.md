@@ -2,7 +2,7 @@
 title: "SQL"
 date: 2022-10-13T11:26:45+08:00
 tags:
-- technologies
+- technology
 ---
 
 Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technology/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
@@ -43,45 +43,47 @@ Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Us
 
 ### String functions
 
-| Function | Kind | Description |
-|:-:|:-:|:-|
-| `LOWER` | Scalar | Converts a string to lowercase |
-| `UPPER` | Scalar | Converts a string to uppercase |
-| `REPLACE` | Scalar | Replaces a string with another given value |
-| `STR` | Scalar | Converts a numeral into a string |
-| `SUBSTRING` | Scalar | Returns part of a string |
+| Function | Syntax | Kind | Description |
+|:-:|:-|:-:|:-|
+| `LOWER` | `LOWER(str)` | Scalar | Converts a string to lowercase |
+| `UPPER` | `UPPER(str)` | Scalar | Converts a string to uppercase |
+| `REPLACE` | `REPLACE(str, old_substring, new_substring)` | Scalar | Replaces a string with another given value |
+| `STR` | `STR(num)` | Scalar | Converts a numeral into a string |
+| `SUBSTRING` | `SUBSTRING(str, start, end)` | Scalar | Returns part of a string, inclusive of `start` and `end` |
 
 ### Mathematical functions
 
-| Function | Kind | Description |
-|:-:|:-:|:-|
-| `CEILING` | Scalar | Returns the next integer of a given number |
-| `FLOOR` | Scalar | Returns the previous integer of a given number |
-| `ROUND` | Scalar | Rounds up a number to a given number of decimal places |
-| `COUNT` | Aggregate | Returns the number of items in a group |
-| `MIN` | Aggregate | Selects the minimum value in a set of values |
-| `MAX` | Aggregate | Selects the maximum value in a set of values |
-| `AVERAGE` | Aggregate | Returns the average value in a set of values |
-| `SUM` | Aggregate | Returns the sum of all values in a set of values |
+| Function | Syntax | Kind | Description |
+|:-:|:-|:-:|:-|
+| `CEILING` | `CEILING(num)` | Scalar | Returns the next integer of a given number |
+| `FLOOR` | `FLOOR(num)` | Scalar | Returns the previous integer of a given number |
+| `ROUND` | `ROUND(num, places)` | Scalar | Rounds up a number to a given number of decimal places |
+| `COUNT` | `COUNT(attribute)` | Aggregate | Returns the number of items in a group |
+| `MIN` | `MIN(attribute)` | Aggregate | Selects the minimum value in a set of values |
+| `MAX` | `MAX(attribute)` | Aggregate | Selects the maximum value in a set of values |
+| `AVERAGE` | `AVERAGE(attribute)` | Aggregate | Returns the average value in a set of values |
+| `SUM` | `SUM(attribute)` | Aggregate | Returns the sum of all values in a set of values |
 
 ### datetime functions
 
-| Function | Kind | Description |
-|:-:|:-:|:-|
-| `DATEADD` | Scalar | Adds a given interval to a date |
-| `DATEDIFF` | Scalar | Returns the difference between two dates |
-| `GETDATE` | Scalar | Gets the current date |
-| `DAY` | Scalar | Returns an integer of the day of the date |
-| `MONTH` | Scalar | Returns an integer of the month of the date |
-| `YEAR` | Scalar | Returns an integer of the year of the date |
-| `FORMAT` | Scalar | Returns a date as a string in the given format |
+Note that for each syntax, `interval` refers to `DAY`, `MONTH`, `YEAR`, `WEEK`, `HOUR`, `MINUTE`, `SECOND`, etc.
+
+| Function | Syntax | Kind | Description |
+|:-:|:-|:-:|:-|
+| `DATEADD` | `DATEADD(interval, num, date)` | Scalar | Adds a given interval to a date |
+| `DATEDIFF` | `DATEDIFF(interval, end, start)` | Scalar | Returns the difference between two dates |
+| `GETDATE` | `GETDATE()` | Scalar | Gets the current date |
+| `DAY` | `DAY(date)` | Scalar | Returns an integer of the day of the date |
+| `MONTH` | `MONTH(date)` | Scalar | Returns an integer of the month of the date |
+| `YEAR` | `YEAR(date)` | Scalar | Returns an integer of the year of the date |
+| `FORMAT` | `FORMAT(date, format, culture)` | Scalar | Returns a date as a string in the given format |
 
 ### System functions
 
-| Function | Kind | Description |
-|:-:|:-:|:-|
-| `FORMAT` | Scalar | Returns a value formatted with the given format |
-| `ISNULL` | Scalar | Replaces `NULL` values with a given value |
+| Function | Syntax | Kind | Description |
+|:-:|:-|:-:|:-|
+| `FORMAT` | `FORMAT(val, format)` | Scalar | Returns a value formatted with the given format |
+| `ISNULL` | `ISNULL(attribute, replaced_value)` | Scalar | Replaces `NULL` values with a given value |
 
 # Logical operators
 

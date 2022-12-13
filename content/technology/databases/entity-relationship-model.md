@@ -2,7 +2,7 @@
 title: "Entity-relationship model"
 date: 2022-11-01T09:21:57+08:00
 tags:
-- technologies
+- technology
 - databases
 ---
 

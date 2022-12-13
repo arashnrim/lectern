@@ -2,7 +2,7 @@
 title: "Device management"
 date: 2022-10-26T22:16:49+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

@@ -2,7 +2,7 @@
 title: "Class"
 date: 2022-11-07T11:20:51+08:00
 tags:
-- technologies
+- technology
 - programming
 ---
 

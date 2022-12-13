@@ -2,7 +2,7 @@
 title: "Operating system"
 date: 2022-10-20T11:57:17+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

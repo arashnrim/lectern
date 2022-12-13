@@ -2,7 +2,7 @@
 title: "File Allocation Table"
 date: 2022-11-21T10:08:43+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

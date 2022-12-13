@@ -2,7 +2,7 @@
 title: "Basic input/output system"
 date: 2022-10-26T21:56:17+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

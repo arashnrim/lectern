@@ -2,7 +2,7 @@
 title: "Power-on self-test"
 date: 2022-10-26T22:02:08+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

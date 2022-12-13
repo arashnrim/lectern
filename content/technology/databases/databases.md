@@ -2,7 +2,7 @@
 title: "Databases"
 date: 2022-10-13T11:29:12+08:00
 tags:
-- technologies
+- technology
 ---
 
 Can be defined as organised collections of data. Generally more advantageous compared to spreadsheets, given that they have:
@@ -22,11 +22,11 @@ Can be defined as organised collections of data. Generally more advantageous com
 
 # Conventions
 #### Table names
-- Lowercase and not include spaces (underscores instead)
-- Should refer to a collective group or be plural
+- Lowercase and not including spaces (underscores instead)
+- Should refer to a collective group or be singular
 
 #### Field names
-- Lowercase and not include spaces (underscores instead)
+- Lowercase and not including spaces (underscores instead)
 - Should be singular, unique, and different from the table name
 
 # [[technology/data-typing|Data typing]]

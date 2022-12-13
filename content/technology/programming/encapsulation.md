@@ -2,7 +2,7 @@
 title: "Encapsulation"
 date: 2022-11-07T11:06:01+08:00
 tags:
-- technologies
+- technology
 - programming
 ---
 

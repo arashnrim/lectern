@@ -2,7 +2,7 @@
 title: "Data typing"
 date: 2022-10-13T11:36:54+08:00
 tags:
-- technologies
+- technology
 ---
 
 The process of assigning a type to a particular variable or value. Often done to:

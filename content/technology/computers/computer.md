@@ -2,7 +2,7 @@
 title: "Computer"
 date: 2022-10-20T11:29:11+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

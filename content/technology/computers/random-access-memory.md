@@ -2,7 +2,7 @@
 title: "Random access memory"
 date: 2022-11-07T09:37:21+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

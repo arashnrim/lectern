@@ -2,7 +2,7 @@
 title: "Inheritance"
 date: 2022-11-21T11:03:49+08:00
 tags:
-- technologies
+- technology
 - programming
 ---
 

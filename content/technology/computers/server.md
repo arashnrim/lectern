@@ -2,7 +2,7 @@
 title: "Server"
 date: 2022-10-20T12:23:40+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

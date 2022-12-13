@@ -2,7 +2,7 @@
 title: "Memory management"
 date: 2022-11-07T09:20:32+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

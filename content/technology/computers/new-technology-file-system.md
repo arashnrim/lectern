@@ -2,7 +2,7 @@
 title: "New Technology File System"
 date: 2022-11-24T11:33:39+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 

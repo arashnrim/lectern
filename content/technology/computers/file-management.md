@@ -2,7 +2,7 @@
 title: "File management"
 date: 2022-11-21T09:07:22+08:00
 tags:
-- technologies
+- technology
 - computers
 ---
 
@@ -117,7 +117,7 @@ The process of splitting a single physical storage into a number of partitions o
 
 The process of preparing a chosen partition of the storage to be used by an OS by deleting all the data and setting up a file system.
 
-In the first sector of the formatted partiiton, a boot block is created. The boot block contains the root folder, which contains:
+In the first sector of the formatted partiton, a boot block is created. The boot block contains the root folder, which contains:
 - file information, including the file's
 	- name;
 	- start cluster;
