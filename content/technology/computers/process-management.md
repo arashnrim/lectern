@@ -25,6 +25,8 @@ A process scheduler is a component that arranges and queues processes to be exec
 - refer to built-in policies and procedures to decide which processes to run first and which processes to be given the chance to finish first; and
 - be responsible for scheduling the next process in the ready queue to be executed.
 
+## Allocation schemes
+
 Different managers will schedule and execute processes in different scheduling schemes that they support. Popular schemes include:
 - first-come first-serve (FCFS);
 - round robin (RR);
@@ -36,13 +38,23 @@ Different managers will schedule and execute processes in different scheduling s
 | First-come first-serve | A scheduling algorithm where tasks are enqueued and the process at the front of the queue is run. |
 | Round robin | A scheduling algorithm similar to first-come first-serve, but rotates across the processes. |
 
-## Allocation schemes
-
-Allocation schemes have a direct impact on the effeciency of the CPU. No single allocation scheme is optimal; each has its own design goals. There are two kinds of allocation schemes:
+Allocation schemes have a direct impact on the efficiency of the CPU. No single allocation scheme is optimal; each has its own design goals. There are two kinds of allocation schemes:
 - non-preemtive, where a process's execution is not allowed to be interrupted; and
 	- example: FCFS
 - preemptive, where a process's execution is allowed to be interrupted.
 	- example: RR
+
+### Benefits and disadvantages
+
+- FCFS
+	- `[+]` Simple to use
+	- `[+]` Fair (provided no long processes are present)
+	- `[-]` Stalling and hogging of the CPU by long processes
+- RR
+	- `[+]` Fair
+	- `[+]` Able to incorporate other schemes
+	- `[-]` Practically equal to FCFS if time quantum is too small
+	- `[-]` A lot of context switching present when the time quantum is too small
 
 # States
 

@@ -21,7 +21,7 @@ A structure for filling data. Utilised by operating systems to store and access 
 Some examples of commonly-used file systems:
 - [[technology/computers/file-allocation-table|File Allocation Table]] (FAT), used in legacy Windows computers;
 	- FAT32, a version of FAT designed by Microsoft;
-- Extensible File Allocation Table (exFAT), used in modern windows computers;
+- [[technology/computers/extensible-file-allocation-table|Extensible File Allocation Table]] (exFAT), used in modern windows computers;
 - [[technology/computers/new-technology-file-system|New Technology File System]] (NTFS), used in modern Windows computers;
 - Hierarchical File System (HFS), used in legacy Apple computers; and
 - Apple File System (APFS), used in modern Apple computers.

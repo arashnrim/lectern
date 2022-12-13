@@ -20,7 +20,7 @@ The [[technology/computers/operating-system-kernel|kernel]] is the part of the o
 
 A location, often in the form of a binary number, located on the memory. It can be referenced to access the content stored in-memory at that particular location. Starts from 0 to a maximum number defined by the amount of RAM in the computer.
 
-To calculate the range of an address space provided the amount of RAM, given that $b$ is the number of bytes, find the number of bits $n$ by using $\frac {log(b)} {log(2)}$ and use that to find the maximum value ($n$ `F`s).
+To calculate the range of an address space provided the amount of RAM, given that $b$ is the number of bytes, find the number of bits $n$ by using $\frac {log(b)} {log(2)}$ and use that to find the maximum value ($\frac n 4$ `F`s).
 
 The number of bits an address has is dependent on the [[technology/computers/computer-architecture#von Neumann computer architecture|address bus]]'s width.
 
@@ -55,3 +55,24 @@ Multiple programs may be loaded into the physical memory at once (in [[technolog
 - The memory manager than swaps data to and fro the storage and memory when required.
 
 Trashing refers to the excessive swapping of pages and data between the memory and secondary storage; this causes the program to operate more slowly.
+
+A computer on low memory may exhibit several signs:
+- running and executing programs slowly;
+- having high thrashing activity;
+- crashing (Blue/Black Screen of Death); and
+- showing warnings about having low memory.
+
+To resolve low memory, consider:
+- upgrading the computer's RAM; and
+- closing unused applications.
+
+# `resmon`
+
+`resmon`, or Resource Monitor, is a program introduced in Windows Vista allowing users to view realtime information about the resources on their computer (i.e., CPU, memory, disk, and network) and the processes using them. There are several terminologies to note for `resmon`.
+
+| Term | Definition |
+|:-:|:-|
+| Commit | The total amount of physical memory and page file space allocated by Windows |
+| Working set | The amount of physical memory used |
+| Shareable | The amount of physical memory a process is sharing with other processes |
+| Private | The amount of physical memory a process is using alone |

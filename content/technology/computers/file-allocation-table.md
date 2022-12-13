@@ -6,7 +6,7 @@ tags:
 - computers
 ---
 
-A file system used in legacy Windows operating systems. Has multiple versions, including 12, 16, and 32-bit variation (FAT12, FAT16, and FAT32 respectively). Has three main components, including the:
+A file system used in legacy Windows operating systems. Has multiple versions, including 12, 16, and 32-bit variation (FAT12, FAT16, and FAT32 respectively). FAT32 supports a maximum of 4 GiB of storage. Has three main components, including the:
 - volume boot record (VBR);
 - directory entries; and the
 - file allocation table.
