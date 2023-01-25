@@ -94,7 +94,7 @@ Solid state drives are similar to hard disk drives, but are more efficient and p
 
 The wastage of disk space within the cluster due to the actual file size being smaller than the allocated space. Also known as slack space (or file slack), which is the space between the end of a file and the end of the cluster it is stored in.
 
-![[Pasted image 20221121094315.png]]
+![[images/external-fragmentation.png]]
 
 Occurs when a file is divided into pieces scattered around the disk, and of which is usually caused by frequently creating, deleting, and modifying files. Usually caused by the deletion of small files which leaves small sets of contiguous clusters insufficient enough to be filled by a bigger new file.
 
