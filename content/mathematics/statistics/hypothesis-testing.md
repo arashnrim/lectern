@@ -63,6 +63,12 @@ The test statistic is a value computed from the sample data used to decide wheth
 $$
 z = \frac {\bar X - \mu} {\frac \sigma {\sqrt n}}
 $$
+
+If the population's standard deviation $\sigma$ is unknown, it can be estimated with the sample standard deviation $\hat \sigma = s$:
+$$
+z = \frac {\bar X - \mu} {\frac s {\sqrt n}}
+$$
+
 ## Making a decision
 Depending on whether the test static falls in the rejection or acceptance region, difference statements can be said.
 
