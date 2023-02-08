@@ -6,20 +6,12 @@ tags:
 - networking
 ---
 
-Wired networks remain ubiquitous even in today's world, owing to their performance in transmitting data compared to wireless transmission media. 
+The method of transmitting data through physical means. Is ubiquitous even in today's world, owing to their performance in transmitting data compared to wireless transmission media. 
 
 The two common types of wired transmission medium include:
 
-- twisted pair cables; and
-- optical fibre cables.
-
-# Twisted pair cables
-
-There are two types of twisted pair cables:
-- shielded twisted pair (STP) cables, in which an additional layer of foil or wire braid is woven around the twisted pairs; and
-- unshielded twisted pair (UTP) cables, in which there is a lack of foil or wire braid but costs are lower.
-
-The most commonly-used type of cable, RJ45, uses unshielded twisted pair cables. Ethernet is a protocol that is built on RJ45 cables.
+- [[technology/networking/twisted-pair-cable|twisted pair cables]]; and
+- [[#Optical fibre cables|optical fibre cables]].
 
 # Optical fibre cables
 
