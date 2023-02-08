@@ -10,20 +10,20 @@ The method of transmitting data through wireless means. Uses radio frequencies t
 
 As with other radio communication, wireless transmission mediums work in a two-way system with a transmitter (wireless [[technology/networking/network-interface-controller|NIC]]) and receiver. Two frequent hardware devices enabling wireless transmission include the [[technology/networking/wireless-access-point|wireless access point]] and [[technology/networking/residential-gateway|residential gateway]].
 
-# Wireless LAN
+# Wireless [[technology/networking/area-networks#Local area network|LAN]]
 
 A computer network that links two or more devices using a wireless connection to form a local area network[^1]. Most WLANs today conform to the [[technology/networking/ieee-802.11|IEEE 802.11]] standard.
 
 ## Parameters
 Typically has several parameters that must be specified, namely the:
 - [[#Service set identifier|service set identifier (SSID)]];
-- frequency channel;
-- frequency band;
-- security type;
+- [[#Frequency channel|frequency channel]];
+- [[#Frequency band|frequency band]];
+- [[#Security type|security type]];
 - encryption type; and
 - other miscellaneous parameters, including:
 	- the host's [[technology/networking/internet-protocol-address||IP address]]; and
-	- a [[media-access-control-address|MAC address]] filter list.
+	- a [[technology/networking/media-access-control-address|MAC address]] filter list.
 
 ### Service set identifier
 A case-sensitive text string that uniquely identifies a service set (i.e., WLAN). Comprises of a sequence of alphanumeric characters up to 32 characters. Usually broadcasted by the AP to all wireless devices in the coverage range.
@@ -44,4 +44,4 @@ A term used on clients that refer to surveying radio frequencies and finding an 
 
 APs should share the same SSID, authentication, and encryption, with channels being different.
 
-[1]: See [[technology/networking/network|network]].
+[^1]: See [[technology/networking/network|network]].

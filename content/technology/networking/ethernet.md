@@ -45,3 +45,15 @@ where:
 - N refers to the PCS encoding method where:
 	- X refers to an 8b/10b or 4B5B block encoding; and
 	- R refers to large block encoding.
+
+# Type II Ethernet Frame
+
+![[images/type-ii-ethernet-frame.png]]
+
+A [[technology/networking/open-systems-interconnection-model|data link]] protocol data unit that includes information about a particular packet. Spans between 64 and 1518 bytes. Has three primary components to it, namely the:
+- [[media-access-control|MAC]] header spanning 14 bytes (6 + 6 + 2), including the:
+	- destination [[technology/networking/media-access-control-address|MAC address]];
+	- source MAC address; and
+	- EtherType (used to indicate which protocol is encapsulated in the payload);
+- payload spanning 46 to 1500 bytes; and
+- CRC checksum spanning 4 bytes.
