@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "c2ecf2cb9b07d740",
+    "type": "split",
+    "children": [
+      {
+        "id": "3caafa2b2344abfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d112133c193a18b9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "screenshot.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb2c2a08379acc3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6868416bd4ee376",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5e690bc899566a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4206e4688873e7ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"- technologies\"",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8f6ffb27a031e19",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "eac040a557eaba8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4583313af31d57f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afe222714f5f8f06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "screenshot.png",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f7badb40f6b41220",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "screenshot.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d4c1c17e4d3c1d83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "50f25a49fda013ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "screenshot.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a5e690bc899566a2",
+  "lastOpenFiles": [
+    "content/mathematics/statistics/hypothesis-testing.md",
+    "resources/_gen/assets/scss/styles/clipboard.scss_c25f88f67e8e33f20619c76cbf49f33c.json",
+    "layouts/partials/backlinks.html",
+    "layouts/partials/date-fmt.html",
+    "layouts/partials/darkmode.html",
+    "layouts/partials/header.html",
+    "layouts/_default/_markup/render-link.html",
+    "assets/js/full-text-search.js",
+    "content/_index.md",
+    "resources/_gen/assets/scss/styles/_light_syntax.scss_4009da724094c9407b03265982ce271a.content",
+    "static/fonts/HKGrotesk-Regular.woff2",
+    "resources/_gen/assets/scss/styles/code-title.scss_c25f88f67e8e33f20619c76cbf49f33c.content",
+    "content/technology/cloud/cloud-economics.md",
+    "content/tags/mathematics/_index.md",
+    "README.md",
+    "LICENSE.md",
+    "content/technology/cloud/cloud-computing.md",
+    "static/icon.png",
+    "CODE_OF_CONDUCT.md",
+    "content/tags/technology/_index.md",
+    "screenshot.png",
+    "content/images/type-ii-ethernet-frame.png",
+    "content/technology/networking/modem.md",
+    "content/technology/networking/user-datagram-protocol.md",
+    "content/technology/networking/network-router.md",
+    "content/technology/networking/transmission-control-protocol.md",
+    "content/technology/networking/application-layer.md",
+    "content/technology/networking/wireless-access-point.md",
+    "content/technology/networking/transport-layer.md",
+    "content/technology/computers/memory-management.md",
+    "content/social/human-centred-design.md",
+    "content/technology/databases/database-design.md",
+    "content/technology/computers/power-on-self-test.md",
+    "content/technology/networking/media-access-control-address.md",
+    "content/technology/networking/network-hub.md",
+    "content/technology/computers/random-access-memory.md",
+    "content/templates/post.md",
+    "content/technology/computers/computer-architecture.md",
+    "content/mathematics/statistics/continuous-probability-distribution.md",
+    "content/images/one-tailed-gt-rejection-region.png",
+    "content/images/one-tailed-lt-rejection-region.png",
+    "content/images/two-tailed-rejection-region.png",
+    "content/images/normal-distribution-curve-area.png",
+    "content/images/external-fragmentation.png"
+  ]
+}

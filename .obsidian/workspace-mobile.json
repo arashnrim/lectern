@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "c2ecf2cb9b07d740",
+    "type": "split",
+    "children": [
+      {
+        "id": "e86830a48fe15f39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa542a846892dd11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "technology/computers/file-management.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00a73afd1e76834a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d481f15985d79860",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3e71a184a77f6d3d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6da648b4a470c644",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "e5a7ae7478c16efa",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e0c052ab4afdb8c8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ee11b3134a8e5a57",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "technology/computers/file-management.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "086a1e1cc9062fc6",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "technology/computers/file-management.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "596ee865a5508932",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "technology/computers/file-management.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "aa542a846892dd11",
+  "lastOpenFiles": [
+    "technology/computers/computer.md",
+    "technology/computers/file-management.md",
+    "technology/computers/memory-management.md",
+    "technology/computers/process-management.md",
+    "technology/computers/operating-system.md",
+    "technology/computers/basic-input-output-system.md",
+    "technology/computers/device-management.md",
+    "technology/databases/databases.md",
+    "technology/databases/database-design.md",
+    "technology/databases/sql.md"
+  ]
+}
