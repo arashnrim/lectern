@@ -19,6 +19,7 @@ There’s not a lot at the moment, but here’s some tags you could take a look 
 	- [Cloud](tags/cloud) — notes related to cloud programming, including architecture, formats, and economics;
 	- [Computers](tags/computers) — notes related to computing;
 	- [Databases](tags/databases) — notes related to database systems and database management systems;
+	- [Development](tags/development) — notes related to object-oriented analysis and design, in particular how software is made;
 	- [Networking](tags/networking) — notes related to networking theory; and
 	- [Programming](tags/programming) — notes related to programming theory.
 - [Mathematics](tags/mathematics) — notes about different mathematical concepts.
