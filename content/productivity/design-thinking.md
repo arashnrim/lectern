@@ -5,7 +5,7 @@ tags:
 - productivity
 ---
 
-A thinking process to help with generating and executing an solution for problems. Often utilises [[social/human-centred-design|human-centred design]] to come up with humane and usable solutions. Has five distinct steps to the process:
+A thinking process to help with generating and executing an solution for problems. Often utilises [[social/human-centred-design|human-centred design]] to come up with humane and usable solutions. Requires creators to consider people's experiences to focus on their human needs. Has five distinct steps to the process:
 
 1. [[social/empathy|Empathise|]]
 	- Aims to understand the experiences, actions, and feelings experienced by people (e.g., the target audience)

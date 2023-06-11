@@ -7,7 +7,7 @@ tags:
 ---
 
 The delivery of services over the internet. Also defined as a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction. Usually includes several common infrastructure used in information technology, including but not limited to:
-- virtual machines;
+- virtual machines (compute power);
 - storage;
 - database; and
 - other resources.
@@ -36,7 +36,7 @@ Cloud computing has several notable characteristics compared to on-premises comp
 ## Cloud computing models
 There are three cloud computing models often adopted:
 
-- infrastructure-as-a-service (IaaS): users manage servers, operating systems,and network infrastructure;
+- infrastructure-as-a-service (IaaS): users manage servers, operating systems, and network infrastructure;
 - platform-as-a-service (PaaS): users create and run applications; the infrastructure is managed by the cloud provider;
 - software-as-a-service (SaaS): users only run the applications; the application is managed by the cloud provider
 
@@ -45,13 +45,14 @@ There are also three cloud deployment models often adopted:
 
 - all-in-cloud: applications are fully deployed in the cloud, and all parts of the applications run in the cloud;
 - hybrid: an organisation's infrastructure into the cloud is extended while also connected to an internal system;
-- private cloud: appplications are run in a cloud infrastructure from an organisation's own data centre.
+- on-premises/private cloud: applications are run in a cloud infrastructure from an organisation's own data centre.
 
 # Benefits
 
-- Cloud computing allows for less capital expenses (expenses ) and more operational expenses.
-- Cloud computing allows companies to enjoy massive economies of scale.
-- Cloud computing allows accurate capacity planning.
-- Cloud computing increases speed and agility.
-- Cloud computing focuses IT resources to meeting business needs.
-- Cloud computing allows for the deployment of IT resources globally.
+Cloud computing mainly aims to move businesses from managing their own hardware to using hardware maintained by a third-party only whenever they need it. In general, cloud computing:
+- allows for less capital expenses (expenses) and more operational expenses;
+- allows companies to enjoy massive economies of scale;
+- allows accurate capacity planning;
+- increases speed and agility;
+- focuses IT resources to meeting business needs; and
+- allows for the deployment of IT resources globally.
